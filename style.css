@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	background-color: lightblue;
+}
+
+#wrapper {
+	max-width: 700px;
+	height: auto;
+	align-items: center;
+}
+
+#editor {
+	width: 99%;
+	min-height: 200px;
+	resize: vertical;
+}
+
+#preview {
+	width: 100%;
+	border-width: 2px 2px;
+	border-style: solid;
+	padding: 0 1rem;
+	background-color: white;
+}
+
+td,
+th {
+	border: 1px solid;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+/* img {
+       max-width: 90%;
+       padding: 1rem
+    } */
